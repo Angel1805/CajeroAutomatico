@@ -1,0 +1,378 @@
+body{
+    background: #debbf7;
+}
+.nav{
+  background-color: #a255e8;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin:10px
+}
+.divNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#logo{
+    width: 55px;
+    height: 55px;
+}
+
+.imgLogo{
+    display: flex;
+}
+.title{
+    font-size: 35px;
+    font-family: 'Pridi', serif;
+    margin: 0;
+}
+.btnloginSession{
+    background-color: #311847;
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    font-family: 'Pridi', serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.btnloginSession:hover{
+    background: #000000;
+    transform: scale(1.05);
+
+}
+.btnloginSession img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+main{
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+}
+.inputSearch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div-inputSearch{
+    width: 40%;
+}
+#buttonSearchCards{
+    background-color: #a255e8;
+    color: #000000;
+}
+#buttonSearchCards:hover{
+    background: #372148;
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+.containerCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(269px,1fr));
+
+    width: 90%;
+    margin: auto;
+}
+
+.cards{
+    background: #efddfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: all 0.25s;
+}
+.cards:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.divFace{
+    margin: 10px;
+}
+
+.cards img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:solid #efddfb;
+}
+#userNotFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divBtnCreateAccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnCreateAccount{
+    background-color: #311847;
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Pridi', serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 15px 0;
+}
+#btnCreateAccount:hover{
+    background: #000000;
+    transform: scale(1.05);
+}
+#formCreateAccount{
+    display: none;
+}
+#formEnterCard{
+    display: none;
+}
+.btnCreateform{
+    background-color: #311847;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Pridi', serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+}
+#formEnterCard{
+    width: 30%;
+}
+.btnCreateform:hover{
+    background: #000000;
+    transform: scale(1.05);
+}
+.divBtnCreateForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divBalanceEnter{
+    width: 30%;
+}
+.divBtnEnter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnEnter{
+    background-color: #311847;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Pridi', serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+}
+.btnEnter:hover{
+    background: #000000;
+    transform: scale(1.05);
+}
+#welcomeMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
+}
+#welcome{
+    margin-right: 10px;
+}
+#divBtnsOption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.btnsOpttions{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#welcomeUser{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnStyle{
+    background-color: #311847;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Pridi', serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+}
+.btnStyle:hover{
+    background: #000000;
+    transform: scale(1.05);
+}
+
+#section3{
+    display: none;
+}
+.btnWithdrawBalance2{
+    background-color: #311847;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Pridi', serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+}
+.btnWithdrawBalance2:hover{
+    background: #000000;
+    transform: scale(1.05);
+}
+#checkBalance{
+    display: flex;
+    justify-content: center;
+}
+.divBtnReturn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.returnOptions{
+    width: 10%;
+    display: none;
+}
+.returnOptions img{
+    width: 18px;
+}
+
+.divBtnReturn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btnEnterBalance2{
+    background-color: #311847;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Pridi', serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+}
+.divBtnEnterBalance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divBalanceWithdrawn{
+    width: 30%;
+}
+@media screen and (max-width: 768px){
+
+    .divNav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav{
+        height: 140px;
+    }
+    .title{
+        text-align: center;
+    }
+    #btnCreateAccount{
+        width: 100px;
+    }
+
+    #div-inputSearch{
+        width: 100%;
+    }
+    #formEnterCard{
+        width: 85%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .btnsOpttions{
+        width: 100%;
+    }
+    .returnOptions{
+        width: 50%;
+    }
+    #divBalanceEnter{
+        width: 90%;
+    }
+    #divBalanceWithdrawn{
+        width: 90%;
+    }
+}
+
+
+
+
+
